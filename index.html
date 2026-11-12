@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIGnateX — Frontend Web Development Course | CODE. BUILD. GROW.</title>
+  
+  <meta name="description" content="Learn to build websites from scratch with BIGnateX. Beginner-friendly online Frontend Web Development course. Contact via WhatsApp.">
+  <meta property="og:image" content="assets/flyer.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-bottom-right"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-accent">BIG</span>nate<span class="logo-x">X</span>
+      </a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="curriculum.html" class="nav-link">Curriculum</a></li>
+        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+        <li><a href="promote.html" class="nav-link">Promote & Flyer</a></li>
+        <li><a href="faq.html" class="nav-link">FAQ</a></li>
+        <li><a href="https://wa.me/2347065052246?text=Hello%20BIGnateX,%20I'm%20interested%20in%20registering%20for%20the%20Frontend%20Course." class="btn btn-sm btn-whatsapp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Register</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero section-spacing">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-tagline">
+          <span class="pulse-dot"></span> CODE. BUILD. GROW.
+        </div>
+        <h1 class="hero-title">
+          Learn to Build <br>
+          <span class="text-gradient-orange">Websites</span> From Scratch.
+        </h1>
+        <p class="hero-subtext">
+          Start your journey into web development with BIGnateX. Learn practical frontend development skills, build real projects, and develop the confidence to create professional websites.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/2347065052246?text=Hello%20BIGnateX,%20I'm%20ready%20to%20register%20for%20the%20Frontend%20Web%20Development%20Course." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Register via WhatsApp
+          </a>
+          <a href="promote.html" class="btn btn-secondary">
+            <i class="fa-solid fa-download"></i> Get Course Flyer
+          </a>
+        </div>
+      </div>
+
+      <!-- Code Visual -->
+      <div class="hero-visual">
+        <div class="workspace-card">
+          <div class="mac-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="window-title">BIGnateX-Developer.jsx</span>
+          </div>
+          <div class="code-container font-mono">
+            <p><span class="code-keyword">const</span> <span class="code-var">developer</span> = {</p>
+            <p class="indent-1"><span class="code-prop">name</span>: <span class="code-string">"Future Frontend Engineer"</span>,</p>
+            <p class="indent-1"><span class="code-prop">mission</span>: <span class="code-string">"Code. Build. Grow."</span>,</p>
+            <p class="indent-1"><span class="code-prop">stack</span>: [<span class="code-string">"HTML5"</span>, <span class="code-string">"CSS3"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"React"</span>],</p>
+            <p class="indent-1"><span class="code-prop">contact</span>: <span class="code-string">"WhatsApp (+234 706 505 2246)"</span>,</p>
+            <p class="indent-1"><span class="code-prop">readyToBuild</span>: <span class="code-bool">true</span></p>
+            <p>};</p>
+            <p class="code-run"><span class="code-keyword">await</span> developer.<span class="code-func">buildRealWebsites</span>();</p>
+          </div>
+          <div class="workspace-badge floating-icon f-icon-1"><i class="fa-brands fa-html5"></i></div>
+          <div class="workspace-badge floating-icon f-icon-2"><i class="fa-brands fa-css3-alt"></i></div>
+          <div class="workspace-badge floating-icon f-icon-3"><i class="fa-brands fa-js"></i></div>
+          <div class="workspace-badge floating-icon f-icon-4"><i class="fa-brands fa-react"></i></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Quick Feature Strip -->
+  <section class="section-spacing">
+    <div class="container grid-3">
+      <div class="glass-card">
+        <div class="card-icon text-cyan"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>Project-Based</h3>
+        <p>Skip endless theory. You write real code from day one and build websites that work on every screen size.</p>
+      </div>
+      <div class="glass-card">
+        <div class="card-icon text-orange"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>Beginner-Friendly</h3>
+        <p>Zero prior coding knowledge required. We teach every concept from ground zero with simple explanations.</p>
+      </div>
+      <div class="glass-card">
+        <div class="card-icon text-green"><i class="fa-brands fa-whatsapp"></i></div>
+        <h3>Direct WhatsApp Mentorship</h3>
+        <p>Ask questions, submit your code, and receive one-on-one debugging support directly on WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (WhatsApp Only) -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand-logo"><span class="logo-accent">BIG</span>nate<span class="logo-x">X</span></a>
+        <p class="footer-tagline">CODE. BUILD. GROW.</p>
+        <p class="footer-desc">Empowering the next generation of frontend developers with practical skills, clean code, and career confidence.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Explore Pages</h5>
+        <ul class="footer-links">
+          <li><a href="about.html">About Course</a></li>
+          <li><a href="curriculum.html">Curriculum</a></li>
+          <li><a href="pricing.html">Tuition & Pricing</a></li>
+          <li><a href="promote.html">Download Flyer</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Official WhatsApp Support</h5>
+        <ul class="footer-links">
+          <li>
+            <a href="https://wa.me/2347065052246" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp text-green"></i> +234 706 505 2246
+            </a>
+          </li>
+          <li style="color: var(--text-dim); font-size: 0.85rem; margin-top: 8px;">
+            Registration & Student Support directly via WhatsApp
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container bottom-flex">
+        <p>&copy; 2026 BIGnateX. All rights reserved.</p>
+        <p class="font-mono">CODE. BUILD. GROW.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
